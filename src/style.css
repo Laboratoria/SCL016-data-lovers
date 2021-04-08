@@ -1,0 +1,266 @@
+/* body{
+   
+    
+} */
+
+
+.page1{
+    background-image:url("Imagenes/Fondo.jpg");
+    background-attachment: scroll;
+    background-size:100% 100%;
+    background-position: center;
+    min-height: 100vh;
+    display:block;
+    display: flex;
+    flex-direction: column;
+   
+   }
+
+h1{
+    width: 502px;
+    height: 100px;
+    font-family: Roboto Slab;
+    font-size: 80px;
+    line-height: 95px;
+
+   }
+
+p{
+    line-height: 42px;
+    width: 431px;
+    height: 23px;
+    left: 474px;
+    top: 97px;
+    font-size: 20px;
+    display: flex;
+       
+   }
+
+.buttonClick{
+    background-image: url("Imagenes/click.png");
+    width: 50px;
+    height: 50px;
+    left: 1108px;
+    top: 757px;
+    border-radius: 258px;
+    width: 79px;
+    background-repeat:no-repeat;
+
+    height: 42px;
+    left: 50px;
+    top: 902px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+
+    display: flex;
+
+    } 
+
+
+.page2{
+    display:none;
+    background-image:url("Imagenes/Fondo.jpg");
+    background-attachment: scroll;
+    background-size:100% 100%;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+    }
+
+h2{
+    width: 502px;
+    height: 100px;
+    font-family: Roboto Slab;
+    font-size: 80px;
+    line-height: 95px;
+    flex:1 1 auto;
+    align-items: initial;
+
+    }
+
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content:center;
+
+    }
+
+#steelButton{
+    width: 90px;
+    height: 30px;
+    top: calc(50% - 81px/2 - 155.5px);
+    background: rgba(117, 119, 120, 0.75);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#waterButton{
+    width: 90px;
+    height: 30px;
+    left: 64px;
+    top: 431px;
+    background: rgba(76, 110, 199, 0.75);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#bugButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(81, 137, 90, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#electricButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(251, 235, 90, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#ghostButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(91, 63, 150, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#fireButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(255, 119, 43, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#fairyButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(254, 174, 212, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#iceButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(168, 236, 251, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    }
+
+#fightingButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(122, 94, 94, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#normalButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#grassButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(69, 232, 86, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#psychicButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(255, 83, 238, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#rockButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(206, 208, 208, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#darkButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(44, 44, 44, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+#groundButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(145, 100, 75, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+ #poisonButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(229, 168, 251, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+    
+#flyingButton{
+    width: 90px;
+    height: 30px;
+    background: rgba(109, 133, 181, 0.75);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    }
+
+
+
+
+.page3{
+    display:none;
+    background-image:url("Imagenes/Fondo.jpg");
+    background-attachment: scroll;
+    background-size:100% 100%;
+    background-position: center;
+    min-height: 100vh;
+
+    }
