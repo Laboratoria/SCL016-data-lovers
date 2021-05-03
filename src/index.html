@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Data Lovers</title>
+    <meta name="viewport"
+    content="width=device-width, user scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <header class="logo">
+      <img src="./Imagen/logo_lol.png" />
+    </header>
+
+    <nav>
+      <!-- la barra de navegacion -->
+      <section class="navegation">
+        <!-- <input type="text" id: "buttSearch" class="buttons-nav" placeholder="Busca tu Campeon" value="" autocomplete="off"/> -->
+        <select class="buttons-nav" name="a-z" id="selectOrder">
+          <option value="A-Z">Ordenar A-Z</option>
+          <option value="Z-A">Ordenar Z-A</option>
+        </select>
+        <input type="button" id="reset" value="Mostrar Todo" class="buttons-nav"/>
+      </section>
+    </nav>
+
+    <section class="typ-champ">
+      <button id="assassin">ASESINOS</button>
+      <button id="fighter">LUCHADORES</button>
+      <button id="mage">MAGOS</button>
+      <button id="marksman">TIRADORES</button>
+      <button id="support">SOPORTES</button>
+      <button id="tank">TANQUES</button>
+    </section>
+
     <div id="root"></div>
+
+    <footer>
+      <div class="links">
+        ¿Quieres aprender a jugar?:
+        <a href="https://lan.leagueoflegends.com/es-mx/champions/"
+          >https://lan.leagueoflegends.com</a
+        >
+        A jugar!
+        <a href="https://signup.lan.leagueoflegends.com/es/signup/index#/"
+          >https://lan.leagueoflegends.com/es</a
+        >
+        -Derechos reservados Riot Games, League of Legends y PvP.net.-
+      </div>
+    </footer>
+
     <script src="main.js" type="module"></script>
   </body>
 </html>
