@@ -4,9 +4,70 @@
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <div id="root"></div>
+    <div class=background>
+      <img src="Imagenes/PokeInfo.png" class="pokeInfo" href="pokeInfo"/>
+    <div class="page1">
+      <h1> Bienvenidos </h1>
+      <p class="paragraphPage1" >Muchos son los juegos de Pokémon que han aparecido a lo largo de estos años, cada uno de ellos más apasionante que el anterior. Te invitamos a explorar la información de cada pokémon</p>
+      <button class="buttonClick" id="Click">Click</button>
+    
+    </div>
+      <div class="page2">
+        <div class="container2">
+        <h1>Búsqueda por:</h1>
+      </div>
+        <p>Nombre:</p>
+        <div >
+      <input type="search" id="search" value=""> <input type="image" id="submitButton" src="Imagenes/magnifyingGlassBlack.png" value="Buscar">
+   
+      <p>Ordenar: </p>
+      <button class="button0" id="order1Button" value="order1">A - Z</button>
+      <button class="button0" id="order2Button" value="order2">Z - A</button>
+
+     <p>Tipos:</p>
+    </div>
+     <div class="containerType">
+      <button class="button1" id="steelButton" value="steel">Acero</button>
+      <button class="button2" id="waterButton" value="water">Agua</button>
+      <button class="button3" id="bugButton" value="bug">Bicho</button>
+      <button class="button4" id="electricButton" value="electric">Eléctrico</button>
+      <button class="button5" id="ghostButton" value="ghost">Fantasma</button>
+      <button class="button6" id="fireButton" value="fire">Fuego</button>
+      <button class="button7" id="fairyButton" value="fairy">Hada</button>
+      <button class="button8" id="iceButton" value="ice">Hielo</button>
+      <button class="button9" id="fightingButton" value="fighting">Lucha</button>
+      <button class="button10" id="normalButton" value="normal">Normal</button>
+      <button class="button11" id="grassButton" value="grass">Planta</button>
+      <button class="button12" id="psychicButton" value="psychic">Psíquico</button>
+      <button class="button13" id="rockButton" value="rock">Roca</button>
+      <button class="button14" id="darkButton" value="dark">Siniestro</button>
+      <button class="button15" id="groundButton" value="ground">Tierra</button>
+      <button class="button16" id="poisonButton" value="poison">Veneno</button>
+      <button class="button17" id="flyingButton" value="flying">Volador</button>
+    
+    </div>
+    </div>
+
+   
+    <div class="page3" id="page3">
+
+
+      <h1 id="title" value=""><h1>
+
+      <figcaption class="info" id="info" value=""></figcaption>
+
+      <button class="back" id="back" value="">Volver</button>
+
+
+    </div>
+    <div class="page4" id="page4" ></div>
+  </div>
     <script src="main.js" type="module"></script>
   </body>
 </html>

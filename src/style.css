@@ -1,0 +1,554 @@
+.background{
+    background-image: url("Imagenes/fondo.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    min-height: 100vh;
+}
+.pokeInfo{
+    width: 15%;
+    float:right;
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+h1{
+    font-size:350%;
+    font-family: 'Roboto Slab', serif;
+    }
+   .paragraphPage1{
+    
+    font-size: 150%;
+    margin:10%;
+    
+    }
+    .buttonClick{
+       
+        background-color: white;
+        color: #000000;
+        border: 5px solid #ffffff;
+        border-radius: 50px;  
+        width: 15%;
+        height: 55px;
+        background-image: url("Imagenes/pokeball1.png");
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 93%;
+        text-align: left;
+        font-size: 130%
+    }
+    .page2{
+        display:none;
+        }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        .button0{
+            margin: 1%;
+            width: 20%;
+        height: 30px;
+        border-radius: 10px;
+        background-color: white;
+        border: 1px solid #000000;
+        background-image: url("Imagenes/pokeball1.png");
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 93%;
+        }
+        #submitButton{
+           size: 10%;
+            
+        }
+        p{
+            font-size: 180%
+        }
+    .containerType{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        align-items: center;
+    }
+    #steelButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(117, 119, 120, 0.75);
+        border: 1px rgba(117, 119, 120, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/steel.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    }
+    
+    #waterButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(76, 110, 199, 0.75);
+        border: 1px rgba(76, 110, 199, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/water.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+    #bugButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(81, 137, 90, 0.75);
+        border: 1px rgba(81, 137, 90, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/bug.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+    #electricButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(251, 235, 90, 0.75);
+        border: 1px rgba(251, 235, 90, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/electric.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+    #ghostButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(91, 63, 150, 0.75);
+        border: 1px rgba(91, 63, 150, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/ghost.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+    #fireButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(255, 119, 43, 0.75);
+        border: 1px rgba(255, 119, 43, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/fire.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;    
+        }
+    
+    #fairyButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(254, 174, 212, 0.75);
+        border: 1px rgba(254, 174, 212, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/fairy.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    
+        }
+    
+    #iceButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(168, 236, 251, 0.75);
+        border: 1px rgba(168, 236, 251, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/ice.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    
+        }
+    
+    #fightingButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(122, 94, 94, 0.75);
+        border: 1px rgba(122, 94, 94, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/fight.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+    #normalButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.75);
+        border: 1px rgba(255, 255, 255, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/normal.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+    #grassButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(69, 232, 86, 0.75);
+        border: 1px rgba(69, 232, 86, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/grass.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    
+        }
+    
+    #psychicButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(255, 83, 238, 0.75);
+        border: 1px rgba(255, 83, 238, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/psychic.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    
+        }
+    
+    #rockButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(206, 208, 208, 0.75);
+        border: 1px rgba(206, 208, 208, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/rock.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    
+        }
+    
+    #darkButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(44, 44, 44, 0.75);
+        border: 1px rgba(44, 44, 44, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/dark.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+    #groundButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(145, 100, 75, 0.75);
+        border: 1px rgba(145, 100, 75, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/ground.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+    
+     #poisonButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(229, 168, 251, 0.75);
+        border: 1px rgba(229, 168, 251, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/poison.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+    
+        }
+    
+    
+    #flyingButton{
+        margin: 1%;
+        width: 20%;
+        height: 30px;
+        background: rgba(109, 133, 181, 0.75);
+        border: 1px rgba(109, 133, 181, 0.75);
+        font-size:130%;
+        border-radius: 10px;
+        background-image: url("Imagenes/flying.png");
+        background-position:left;
+        background-position-x: 15%;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        }
+
+
+    
+.page3{
+    display:none;
+    }
+/*
+
+
+
+   .page2{
+        display:none;
+        background-image:url("Imagenes/Fondo.jpg");
+        background-attachment: scroll;
+        background-size:100% 100%;
+        background-position: center;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    
+    
+        }
+
+h2{
+    width: 502px;
+    height: 100px;
+    font-family: Roboto Slab;
+    font-size: 80px;
+    line-height: 95px;
+    flex:1 1 auto;
+    align-items: initial;
+
+    }
+    .button-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-content:center;
+    
+        }
+    
+    #steelButton{
+        width: 90px;
+        height: 30px;
+        top: calc(50% - 81px/2 - 155.5px);
+        background: rgba(117, 119, 120, 0.75);
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #waterButton{
+        width: 90px;
+        height: 30px;
+        left: 64px;
+        top: 431px;
+        background: rgba(76, 110, 199, 0.75);
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #bugButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(81, 137, 90, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #electricButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(251, 235, 90, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #ghostButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(91, 63, 150, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #fireButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(255, 119, 43, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #fairyButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(254, 174, 212, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #iceButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(168, 236, 251, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #fightingButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(122, 94, 94, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #normalButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #grassButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(69, 232, 86, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #psychicButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(255, 83, 238, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #rockButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(206, 208, 208, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #darkButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(44, 44, 44, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    #groundButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(145, 100, 75, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+     #poisonButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(229, 168, 251, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    
+    #flyingButton{
+        width: 90px;
+        height: 30px;
+        background: rgba(109, 133, 181, 0.75);
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        }
+    
+    
+    
+    
+    .page3{
+        display:none;
+        background-image:url("Imagenes/Fondo.jpg");
+        background-attachment: scroll;
+        background-size:100% 100%;
+        background-position: center;
+        min-height: 100vh;
+    }
+
+    .page4{
+        display:none;
+        } */
